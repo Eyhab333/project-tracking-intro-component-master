@@ -74,7 +74,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4rem 10.3125rem 7.75rem 10.3125rem;
+    padding: 2.375rem 2rem 4rem 2rem;
   }
   header .logo {
     width: 32px;
@@ -86,7 +86,7 @@ ul {
     justify-content: flex-end;
   }
   header nav ul li + li {
-    margin-left: 42px;
+    margin-left: 12px;
   }
   header nav ul li a {
     font-family: "Barlow Condensed";
@@ -99,7 +99,7 @@ ul {
     color: #242942;
   }
   header .login {
-    margin-left: 93px;
+    margin-left: 23px;
   }
   header .login a {
     font-family: "Barlow Condensed";
@@ -116,14 +116,19 @@ ul {
   main {
     display: flex;
     flex-direction: column-reverse;
+  }
+  main .text {
+    margin-top: 67px;
+    padding: 5px 32px 90px 32px;
+    text-align: center;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
   }
   main .text .new {
     margin-bottom: 16px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   main .text .new .p1 {
     font-family: "Barlow Condensed";
@@ -154,12 +159,12 @@ ul {
     font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 40px;
+    line-height: 40px;
     color: #242942;
     margin-bottom: 32px;
   }
-  main .text p {
+  main .text .project {
     font-family: "Barlow";
     font-style: normal;
     font-weight: 400;
@@ -184,30 +189,22 @@ ul {
     text-align: right;
     letter-spacing: 1.06667px;
     color: #ffffff;
-    margin-right: 24px;
-    background: #FF5E5E;
+    margin-right: 14px;
+    background: #ff5e5e;
     border-radius: 5px;
-    padding: 15px 32px;
+    padding: 11px 22px;
   }
   main .text .button-and-p p {
     font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
     color: #242942;
     mix-blend-mode: normal;
     opacity: 0.5;
     margin-bottom: 0;
-  }
-  main .images {
-    -o-object-fit: none;
-       object-fit: none;
-  }
-  main .images img {
-    -o-object-position: 180px 0px;
-       object-position: 180px 0px;
   }
 }
 /*############ for-tablet-portrait-up ##############*/
@@ -269,7 +266,10 @@ ul {
     padding-bottom: 125px;
   }
   main .text {
-    max-width: 29.375rem;
+    width: 500px;
+  }
+  main .text .container {
+    display: block;
   }
   main .text .new {
     margin-bottom: 16px;
@@ -309,9 +309,10 @@ ul {
     font-size: 64px;
     line-height: 64px;
     color: #242942;
+    width: 31.25rem;
     margin-bottom: 32px;
   }
-  main .text p {
+  main .text .project {
     font-family: "Barlow";
     font-style: normal;
     font-weight: 400;
@@ -321,6 +322,7 @@ ul {
     mix-blend-mode: normal;
     opacity: 0.75;
     margin-bottom: 64px;
+    max-width: 16.8125rem;
   }
   main .text .button-and-p {
     display: flex;
@@ -337,7 +339,7 @@ ul {
     letter-spacing: 1.06667px;
     color: #ffffff;
     margin-right: 24px;
-    background: #FF5E5E;
+    background: #ff5e5e;
     border-radius: 5px;
     padding: 15px 32px;
   }
@@ -354,12 +356,13 @@ ul {
     margin-bottom: 0;
   }
   main .images {
-    -o-object-fit: none;
-       object-fit: none;
+    height: 100%;
   }
   main .images img {
-    -o-object-position: 180px 0px;
-       object-position: 180px 0px;
+    -o-object-position: 200px 0px;
+       object-position: 200px 0px;
+    height: auto;
+    width: 916px;
   }
 }
 /*############ for-tablet-landscape-up #############*/

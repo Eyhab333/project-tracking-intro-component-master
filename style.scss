@@ -79,7 +79,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: toRem(64) toRem(165) toRem(124) toRem(165);
+    padding: toRem(38) toRem(32) toRem(64) toRem(32);
 
     .logo {
       width: 32px;
@@ -93,7 +93,7 @@ ul {
         justify-content: flex-end;
 
         li + li {
-          margin-left: 42px;
+          margin-left: 12px;
         }
         li {
           a {
@@ -111,7 +111,7 @@ ul {
     }
 
     .login {
-      margin-left: 93px;
+      margin-left: 23px;
 
       a {
         font-family: "Barlow Condensed";
@@ -131,14 +131,18 @@ ul {
   main {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-between;
 
     .text {
+      margin-top: 67px;
+      padding: 5px 32px 90px 32px;
+      text-align: center;
+      display: flex;
+      align-items: center;
       .new {
         margin-bottom: 16px;
-        display: flex;align-items: center;
-        justify-content: flex-start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         .p1 {
           font-family: "Barlow Condensed";
@@ -172,13 +176,13 @@ ul {
         font-family: "Barlow Condensed";
         font-style: normal;
         font-weight: 700;
-        font-size: 64px;
-        line-height: 64px;
+        font-size: 40px;
+        line-height: 40px;
         color: #242942;
         margin-bottom: 32px;
       }
 
-      p {
+      .project {
         font-family: "Barlow";
         font-style: normal;
         font-weight: 400;
@@ -204,19 +208,19 @@ ul {
           text-align: right;
           letter-spacing: 1.06667px;
           color: #ffffff;
-          margin-right: 24px;
-          background: #FF5E5E;
-border-radius: 5px;
-padding: 15px 32px;
+          margin-right: 14px;
+          background: #ff5e5e;
+          border-radius: 5px;
+          padding: 11px 22px;
         }
 
         p {
           font-family: "Barlow Condensed";
           font-style: normal;
           font-weight: 400;
-          font-size: 15px;
-          line-height: 18px;
-          letter-spacing: 5px;
+          font-size: 14px;
+          line-height: 16px;
+          letter-spacing: 2.5px;
           color: #242942;
           mix-blend-mode: normal;
           opacity: 0.5;
@@ -226,10 +230,10 @@ padding: 15px 32px;
     }
 
     .images {
-      object-fit: none;
+      // object-fit: none;
 
       img {
-        object-position: 180px 0px;
+        // object-position: 110px 0px;
       }
     }
   }
@@ -302,13 +306,18 @@ padding: 15px 32px;
     align-items: center;
     justify-content: space-between;
     padding-left: 165px;
-    padding-bottom: 125px; 
+    padding-bottom: 125px;
 
     .text {
-      max-width: toRem(470);
+      width: 500px;
+
+      .container {
+        display: block;
+      }
       .new {
         margin-bottom: 16px;
-        display: flex;align-items: center;
+        display: flex;
+        align-items: center;
         justify-content: flex-start;
 
         .p1 {
@@ -346,10 +355,11 @@ padding: 15px 32px;
         font-size: 64px;
         line-height: 64px;
         color: #242942;
+        width: toRem(500);
         margin-bottom: 32px;
       }
 
-      p {
+      .project {
         font-family: "Barlow";
         font-style: normal;
         font-weight: 400;
@@ -359,6 +369,7 @@ padding: 15px 32px;
         mix-blend-mode: normal;
         opacity: 0.75;
         margin-bottom: 64px;
+        max-width: toRem(269);
       }
 
       .button-and-p {
@@ -376,9 +387,9 @@ padding: 15px 32px;
           letter-spacing: 1.06667px;
           color: #ffffff;
           margin-right: 24px;
-          background: #FF5E5E;
-border-radius: 5px;
-padding: 15px 32px;
+          background: #ff5e5e;
+          border-radius: 5px;
+          padding: 15px 32px;
         }
 
         p {
@@ -397,10 +408,12 @@ padding: 15px 32px;
     }
 
     .images {
-      object-fit: none;
+      height: 100%;
 
       img {
-        object-position: 180px 0px;
+        object-position: 200px 0px;
+        height: auto;
+        width: 916px;
       }
     }
   }
